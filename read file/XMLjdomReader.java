@@ -40,7 +40,7 @@ public class XMLjdomReader {
                 student.setId(Integer.parseInt(studentEl.getAttributeValue("id")));
                 student.setAge(Integer.parseInt(studentEl.getChildText("age")));
                 student.setName(studentEl.getChildText("name"));
-                student.setLanguage(studentEl.getChildText("language"));
+                student.setacademicCourse(studentEl.getChildText("academicCourse"));
 
                 students.add(student);
             }
@@ -94,3 +94,4 @@ public class XMLjdomReader {
 
     }
 }
+
