@@ -1,2 +1,3 @@
 # practic
-practical task for OOP
+practical task for study
+
