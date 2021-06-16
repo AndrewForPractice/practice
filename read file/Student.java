@@ -2,7 +2,7 @@ public class Student {
     private String name;
     private int age;
     private int id;
-    private String language;
+    private String academicCourse;
 
     @Override
     public String toString() {
@@ -10,7 +10,7 @@ public class Student {
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", id=" + id +
-                ", language='" + language + '\'' +
+                ", academicCourse='" + academicCourse + '\'' +
                 '}';
     }
 
@@ -30,12 +30,12 @@ public class Student {
         this.age = age;
     }
 
-    public String getLanguage() {
-        return language;
+    public String getacademicCourse() {
+        return academicCourse;
     }
 
-    public void setLanguage(String language) {
-        this.language = language;
+    public void setacademicCourse(String academicCourse) {
+        this.academicCourse = academicCourse;
     }
 
     public int getId() {
