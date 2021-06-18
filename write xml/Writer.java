@@ -17,10 +17,10 @@ public class Writer {
         students.add(new Student(3, "Dima", 22, "fourth"));
 
         String fileName = "write.xml";
-        writeToXMLusingJDOM(students, fileName);
+        write(students, fileName);
     }
 
-    private static void writeToXMLusingJDOM(List<Student> students, String fileName) throws IOException { //метод, записывающий в файл xml
+    private static void write(List<Student> students, String fileName) throws IOException { //метод, записывающий в файл xml
         Document doc = new Document();
         doc.setRootElement(new Element("Students"));
         for (Student student : students) {
