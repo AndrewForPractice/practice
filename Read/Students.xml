@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Students>
+    <Student id="1">
+        <name>Andrey</name>
+        <age>18</age>
+        <academicCourse>first</academicCourse>
+    </Student>
+    <Student id="2">
+        <name>Viktor</name>
+        <age>20</age>
+        <academicCourse>third</academicCourse>
+    </Student>
+    <Student id="3">
+        <name>Dima</name>
+        <age>22</age>
+        <academicCourse>fourth</academicCourse>
+    </Student>
+</Students>
